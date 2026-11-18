@@ -99,7 +99,7 @@ services:
     ports: ["1025:1025", "8025:8025"]
 
   jaeger:
-    image: jaegertracing/jaeger:2.22.0
+    image: jaegertracing/jaeger:2.23.0
     ports: ["16686:16686", "4318:4318"]
 
 volumes:
